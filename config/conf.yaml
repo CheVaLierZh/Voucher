@@ -1,0 +1,17 @@
+app:
+  mysql:
+    user: root
+    password: root
+    dbName: voucher
+    address: 127.0.0.1:3306
+  redis:
+    address: 127.0.0.1:6379
+    network: tcp
+    password: 123456
+    dbName: 0
+    notAllocPreheatSize: 100000
+    notRedeemPreheattSize: 100000
+    expireTime: 3600
+  timeFormat: 2006-11-12 12:30:59
+  MessageQueueSize: 10000
+  port: 20079
